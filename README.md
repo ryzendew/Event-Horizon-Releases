@@ -1,12 +1,10 @@
-# Event Horizon Dotfiles
+# Event Horizon Releases
 
 My personal desktop environment setup for Linux, built on Hyprland and Quickshell. It's basically a complete desktop experience that I've been tweaking and refining over time.
 
 ## What is this?
 
-This started as [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) dotfiles but has grown into my own full desktop environment setup. I'm using Hyprland as the window manager (it's a tiling Wayland compositor) and Quickshell for the shell/widget system. Together they make for a pretty solid desktop experience.
-
-**Includes:** All necessary fonts (SF Pro, Inter, Fira Code, Material Symbols, Noto) are bundled with the configuration files.
+A repo for Releases and Holds No source code or files.
 
 ## Reporting Issues
 
