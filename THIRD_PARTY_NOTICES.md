@@ -23,11 +23,3 @@ You must comply with the CC BY-NC-SA 3.0 terms when copying or redistributing th
 **Source:** `https://github.com/AvengeMedia/DankMaterialShell` (files under `quickshell/translations/` in upstream repository).
 
 **License:** MIT License — see `LICENSES/DankMaterialShell-MIT.txt`.
-
-## Noctalia Shell (historical provenance / inspiration)
-
-No files from Noctalia Shell were used in this repository’s current contents, and no Noctalia Shell code/assets remain. A copy of the upstream license is retained only as a good-faith provenance record.
-
-**Upstream:** `https://github.com/noctalia-dev/noctalia-shell`
-
-**License:** MIT License — see `LICENSES/NoctaliaShell-MIT.txt`.
