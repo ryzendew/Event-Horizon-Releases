@@ -11,7 +11,7 @@ Optional (extra features): `librsvg2 libdrm polkit`
 
 ## Install Event Horizon DE
 
-Download the `.rpm` from the [releases page](https://github.com/anomalyco/Event-Horizon-DE/releases) and install:
+Download the `.rpm` from the [releases page](https://github.com/ryzendew/Event-Horizon-Releases/releases) and install:
 
 ```bash
 sudo dnf install ./event-horizon-de-<version>-1.x86_64.rpm
