@@ -2,6 +2,48 @@
 
 Follow these steps to install DarkMatter Shell on Arch-based distros.
 
+
+## Install Dependencies
+
+```bash
+sudo pacman -S wayland cairo pango freetype2 fontconfig libxkbcommon \
+  sdbus-cpp pipewire pam curl libwebp openssl vulkan-icd-loader \
+  hicolor-icon-theme glib2 lz4
+```
+
+Optional (extra features): `libjpeg-turbo librsvg libdrm polkit`
+
+## Install Event Horizon DE
+
+Download the `.pkg.tar.zst` from the [releases page](https://github.com/anomalyco/Event-Horizon-DE/releases) and install:
+
+```bash
+sudo pacman -U event-horizon-de-<version>-1-x86_64.pkg.tar.zst
+```
+
+Optional components (install the same way):
+
+```bash
+sudo pacman -U horizon-shot-<version>-1-x86_64.pkg.tar.zst
+sudo pacman -U horizon-files-<version>-1-x86_64.pkg.tar.zst
+```
+
+## Running
+
+Launch from your compositor's config. For example in Hyprland:
+
+```
+exec-once = EventHorizon
+```
+
+Or run from a terminal after your compositor is started:
+
+```bash
+EventHorizon
+```
+
+Settings: `EventHorizon --settings`
+
 ## Step 1: Update System
 
 First, make sure your system is up to date:
