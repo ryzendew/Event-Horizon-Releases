@@ -1,6 +1,46 @@
 # Fedora / Nobara Installation
+## Install Dependencies
 
-Follow these steps to install DarkMatter Shell on Fedora-based distros.
+```bash
+sudo dnf install wayland cairo pango freetype fontconfig libxkbcommon \
+  sdbus-cpp pipewire pam libcurl libwebp openssl vulkan-loader \
+  hicolor-icon-theme glib2 lz4
+```
+
+Optional (extra features): `librsvg2 libdrm polkit`
+
+## Install Event Horizon DE
+
+Download the `.rpm` from the [releases page](https://github.com/anomalyco/Event-Horizon-DE/releases) and install:
+
+```bash
+sudo dnf install ./event-horizon-de-<version>-1.x86_64.rpm
+```
+
+Optional components (install the same way):
+
+```bash
+sudo dnf install ./horizon-shot-<version>-1.x86_64.rpm
+sudo dnf install ./horizon-files-<version>-1.x86_64.rpm
+```
+
+## Running
+
+Add to your compositor's config. For example in Hyprland:
+
+```
+exec-once = EventHorizon
+```
+
+Or run from a terminal after your compositor is started:
+
+```bash
+EventHorizon
+```
+
+Settings: `EventHorizon --settings`
+
+Follow these steps to install Event Horizon Shell on Fedora-based distros.
 
 ## Step 1: Update System
 
