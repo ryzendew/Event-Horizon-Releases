@@ -15,7 +15,7 @@ Optional (extra features): `libjpeg-turbo librsvg libdrm polkit`
 
 ## Install Event Horizon DE
 
-Download the `.pkg.tar.zst` from the [releases page](https://github.com/anomalyco/Event-Horizon-DE/releases) and install:
+Download the `.pkg.tar.zst` from the [releases page](https://github.com/ryzendew/Event-Horizon-DE/releases) and install:
 
 ```bash
 sudo pacman -U event-horizon-de-<version>-1-x86_64.pkg.tar.zst
