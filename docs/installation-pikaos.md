@@ -1,6 +1,51 @@
 # PikaOS Installation
 
-Follow these steps to install DarkMatter Shell on PikaOS.
+## Install Dependencies
+
+```bash
+sudo apt install libwayland-client0 libcairo2 libpango-1.0-0 libfreetype6 \
+  fontconfig libxkbcommon0 libsdbus-c++-2 libpipewire-0.3-0 libpam0g \
+  libcurl4 libwebp7 libvulkan1 hicolor-icon-theme libglib2.0-0 liblz4-1 \
+  libfontconfig1
+```
+
+Optional (extra features): `libjpeg-turbo8 librsvg2-2 libdrm2 policykit-1`
+
+If `libsdbus-c++-2` is not found, try `libsdbus-c++-1` (package name varies by release).
+
+## Install Event Horizon DE
+
+Download the `.deb` from the [releases page](https://github.com/anomalyco/Event-Horizon-DE/releases) and install:
+
+```bash
+sudo apt install ./event-horizon-de_<version>_amd64.deb
+```
+
+Optional components (install the same way):
+
+```bash
+sudo apt install ./horizon-shot_<version>_amd64.deb
+sudo apt install ./horizon-files_<version>_amd64.deb
+```
+
+## Running
+
+Add to your compositor's config. For example in Hyprland:
+
+```
+exec-once = EventHorizon
+```
+
+Or run from a terminal after your compositor is started:
+
+```bash
+EventHorizon
+```
+
+Settings: `EventHorizon --settings`
+
+
+Follow these steps to install Event Horiozon Shell on PikaOS.
 
 ## Step 1: Update System
 
