@@ -15,7 +15,7 @@ If `libsdbus-c++-2` is not found, try `libsdbus-c++-1` (package name varies by r
 
 ## Install Event Horizon DE
 
-Download the `.deb` from the [releases page](https://github.com/anomalyco/Event-Horizon-DE/releases) and install:
+Download the `.deb` from the [releases page](https://github.com/ryzendew/Event-Horizon-Releases/releases) and install:
 
 ```bash
 sudo apt install ./event-horizon-de_<version>_amd64.deb
