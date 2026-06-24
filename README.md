@@ -16,6 +16,10 @@ Found a bug or have an issue? Please check the [Reporting Guide](docs/reporting-
 
 Run the universal installer - it auto-detects your distribution and installs everything:
 
+```
+chmod +x install.sh
+```
+
 ```bash
 ./install.sh
 ```
