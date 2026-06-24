@@ -1,6 +1,6 @@
 # PikaOS Installation
 
-## Install Dependencies
+## Install Dependencies For the DE
 
 ```bash
 sudo apt install libwayland-client0 libcairo2 libpango-1.0-0 libfreetype6 \
@@ -47,7 +47,7 @@ Settings: `EventHorizon --settings`
 
 Follow these steps to install Event Horiozon Shell on PikaOS.
 
-## Step 1: Update System
+## Step 1: Update System For the DOTFILES!!! not the DE
 
 ```bash
 sudo apt update && sudo apt upgrade -y

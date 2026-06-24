@@ -1,9 +1,9 @@
 # Arch Linux / CachyOS / EndeavourOS / XeroLinux Installation
 
-Follow these steps to install DarkMatter Shell on Arch-based distros.
+Follow these steps to install Event Horizon DE on Arch-based distros.
 
 
-## Install Dependencies
+## Install Dependencies For the DE only!
 
 ```bash
 sudo pacman -S wayland cairo pango freetype2 fontconfig libxkbcommon \
@@ -44,7 +44,7 @@ EventHorizon
 
 Settings: `EventHorizon --settings`
 
-## Step 1: Update System
+## Step 1: Dotfiles install
 
 First, make sure your system is up to date:
 

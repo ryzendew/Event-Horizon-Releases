@@ -12,7 +12,7 @@ Found a bug or have an issue? Please check the [Reporting Guide](docs/reporting-
 
 ## Quick Start
 
-### Automatic Installation (Recommended)
+### Automatic Installation (Recommended) For the Dotfiles only!
 
 Run the universal installer - it auto-detects your distribution and installs everything:
 
@@ -37,7 +37,7 @@ If you prefer manual installation, use the [Installation Guide](docs/installatio
 
 ## Next Steps
 
-1. Your DarkMatter setup is ready! Config files are automatically installed.
+1. Your Event Horizon setup is ready! Config files are automatically installed.
 2. Check out the [Features](docs/features.md) documentation
 3. Read the [Hypr Configuration](hypr-configuration.md) guide to customize things
 4. Your previous configs are backed up as `.bak` folders if you need to restore them
@@ -98,4 +98,4 @@ Other distros might work, but I haven't tested them and can't help if something 
 
 This was originally inspired by [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell), but I've rewritten everything and it's no longer a fork. The design keeps changing as I tweak things.
 
-Do whatever you want with it. Fork it, modify it, use parts of it - I don't care about attribution.
+Do whatever you want with it. Fork it, modify it, use parts of it - I don't care about attribution Because it's open source DUH.
