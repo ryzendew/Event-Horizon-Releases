@@ -1,5 +1,5 @@
 # Fedora / Nobara Installation
-## Install Dependencies For the DE
+## Install Dependencies for Event Horizon Shell
 
 ```bash
 sudo dnf install wayland cairo pango freetype fontconfig libxkbcommon \
@@ -9,7 +9,7 @@ sudo dnf install wayland cairo pango freetype fontconfig libxkbcommon \
 
 Optional (extra features): `librsvg2 libdrm polkit`
 
-## Install Event Horizon DE
+## Install Event Horizon Shell
 
 Download the `.rpm` from the [releases page](https://github.com/ryzendew/Event-Horizon-Releases/releases) and install:
 
@@ -42,7 +42,9 @@ Settings: `EventHorizon --settings`
 
 Follow these steps to install Event Horizon Shell on Fedora-based distros.
 
-## Step 1: Dotfile install Setup : Update your system
+> This page installs **Event Horizon Shell**. If you only want **Event Horizon Dotfiles** (config files only), stop here and use the README dotfiles section.
+
+## Step 1: Update your system
 
 ```bash
 sudo dnf update -y

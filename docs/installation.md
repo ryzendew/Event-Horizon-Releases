@@ -1,6 +1,6 @@
 # Installation Guide
 
-Here's how to get DarkMatter Shell set up on your system. The process is a bit different depending on what distro you're running.
+Here's how to get Event Horizon Shell set up on your system. The process is a bit different depending on what distro you're running.
 
 ## Table of Contents
 
@@ -12,6 +12,8 @@ Pick your distro and follow the steps.
 - [Post-Installation](#post-installation)
 - [Next Steps](#next-steps)
 
+> This page covers **Event Horizon Shell** installation. If you only want **Event Horizon Dotfiles**, use the dotfiles install instructions in the README instead.
+
 ## Installation by Distribution
 
 Each distro has its own page with all commands, including fonts:
@@ -20,6 +22,7 @@ Each distro has its own page with all commands, including fonts:
 - [Fedora / Nobara](installation-fedora.md)
 - [PikaOS](installation-pikaos.md)
 
+> These pages install **Event Horizon Shell**. If you only want **Event Horizon Dotfiles**, stop here and use the README dotfiles instructions.
 
 ---
 

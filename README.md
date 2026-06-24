@@ -4,7 +4,7 @@ My personal desktop environment setup for Linux, built on Hyprland and Quickshel
 
 ## What is this?
 
-A repo for Releases and Holds No source code or files.
+A repo for release artifacts and configuration files for Event Horizon Shell and Event Horizon Dotfiles. This is not a full Linux distribution installer.
 
 ## Reporting Issues
 
@@ -12,9 +12,14 @@ Found a bug or have an issue? Please check the [Reporting Guide](docs/reporting-
 
 ## Quick Start
 
-### Automatic Installation (Recommended) For the Dotfiles only!
+This repo contains two separate things:
 
-Run the universal installer - it auto-detects your distribution and installs everything:
+- **Event Horizon Dotfiles** — config files only
+- **Event Horizon Shell** — desktop shell environment install guidance
+
+### Event Horizon Dotfiles
+
+Run the universal installer to install the dotfiles and config files only:
 
 ```
 chmod +x install.sh
@@ -26,24 +31,30 @@ chmod +x install.sh
 
 The installer will:
 - ✅ **Ask for confirmation** before starting installation
-- ✅ Auto-detect your Linux distribution (Arch, Fedora, Ubuntu, Debian, PikaOS)
+- ✅ Auto-detect your distribution (Arch, Fedora, Ubuntu, Debian, PikaOS)
 - ✅ Check for already installed packages and skip them
 - ✅ Handle sudo permissions automatically
 - ✅ Install all required dependencies
-- ✅ **Automatically copy config files** to ~/.config/hypr/ and ~/.config/quickshell/
-- ✅ **Backup existing configs** to .bak folders (only on first install)
-- ✅ Provide fallbacks if matugen or dgop compilation fails
+- ✅ **Automatically copy config files** to `~/.config/hypr/` and `~/.config/quickshell/`
+- ✅ **Backup existing configs** to `.bak` folders (only on first install)
+- ✅ Provide fallbacks if `matugen` or `dgop` compilation fails
 - ✅ Continue installation even if some components fail
 
-### Manual Installation
+### Event Horizon Shell
 
-If you prefer manual installation, use the [Installation Guide](docs/installation.md) and pick your distro page.
+If you want the full desktop shell experience, follow the distro-specific install docs:
+
+- [Installation Guide](docs/installation.md)
+
+## Manual Installation
+
+If you prefer manual setup for Event Horizon Shell, use the [Installation Guide](docs/installation.md) and pick your distro page.
 
 ## Next Steps
 
 1. Your Event Horizon setup is ready! Config files are automatically installed.
 2. Check out the [Features](docs/features.md) documentation
-3. Read the [Hypr Configuration](hypr-configuration.md) guide to customize things
+3. Read the [Hypr Configuration](docs/hypr-configuration.md) guide to customize things
 4. Your previous configs are backed up as `.bak` folders if you need to restore them
 
 ## Documentation

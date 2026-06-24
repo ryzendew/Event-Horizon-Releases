@@ -1,6 +1,8 @@
 # PikaOS Installation
 
-## Install Dependencies For the DE
+> This page installs **Event Horizon Shell**. If you only want **Event Horizon Dotfiles** (config files only), stop here and use the README dotfiles section.
+
+## Install Dependencies for Event Horizon Shell
 
 ```bash
 sudo apt install libwayland-client0 libcairo2 libpango-1.0-0 libfreetype6 \
@@ -13,7 +15,7 @@ Optional (extra features): `libjpeg-turbo8 librsvg2-2 libdrm2 policykit-1`
 
 If `libsdbus-c++-2` is not found, try `libsdbus-c++-1` (package name varies by release).
 
-## Install Event Horizon DE
+## Install Event Horizon Shell
 
 Download the `.deb` from the [releases page](https://github.com/ryzendew/Event-Horizon-Releases/releases) and install:
 
@@ -45,9 +47,9 @@ EventHorizon
 Settings: `EventHorizon --settings`
 
 
-Follow these steps to install Event Horiozon Shell on PikaOS.
+Follow these steps to install Event Horizon Shell on PikaOS.
 
-## Step 1: Update System For the DOTFILES!!! not the DE
+## Step 1: Update your system
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -90,7 +92,7 @@ Fonts are included with the config, but install them system-wide if you want.
 ```bash
 sudo apt install -y fonts-noto fonts-noto-color-emoji
 ```
-## Step 4: Setup quickshell as a Service
+## Step 5: Setup quickshell as a Service
 
 **Here's how to set up a user-level systemd service**
 

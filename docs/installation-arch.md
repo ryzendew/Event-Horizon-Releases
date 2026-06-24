@@ -1,9 +1,10 @@
 # Arch Linux / CachyOS / EndeavourOS / XeroLinux Installation
 
-Follow these steps to install Event Horizon DE on Arch-based distros.
+Follow these steps to install Event Horizon Shell on Arch-based distros.
 
+> This page installs **Event Horizon Shell**. If you only want **Event Horizon Dotfiles** (config files only), stop here and use the README dotfiles section.
 
-## Install Dependencies For the DE only!
+## Install Dependencies for Event Horizon Shell
 
 ```bash
 sudo pacman -S wayland cairo pango freetype2 fontconfig libxkbcommon \
@@ -13,7 +14,7 @@ sudo pacman -S wayland cairo pango freetype2 fontconfig libxkbcommon \
 
 Optional (extra features): `libjpeg-turbo librsvg libdrm polkit`
 
-## Install Event Horizon DE
+## Install Event Horizon Shell
 
 Download the `.pkg.tar.zst` from the [releases page](https://github.com/ryzendew/Event-Horizon-Releases/releases) and install:
 
@@ -44,7 +45,7 @@ EventHorizon
 
 Settings: `EventHorizon --settings`
 
-## Step 1: Dotfiles install
+## Step 1: Install Event Horizon Dotfiles Configs
 
 First, make sure your system is up to date:
 
