@@ -1,5 +1,7 @@
 # Installation Guide
 
+> **Do NOT clone this repo.** Download the releases from [https://github.com/ryzendew/Event-Horizon-Releases/releases](https://github.com/ryzendew/Event-Horizon-Releases/releases) instead. This is a releases-only repository.
+
 Here's how to get Event Horizon Shell set up on your system. The process is a bit different depending on what distro you're running.
 
 ## Table of Contents
