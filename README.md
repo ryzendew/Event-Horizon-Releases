@@ -95,6 +95,16 @@ How the Hyprland config is organized:
 - Monitor setup
 - Shader effects
 
+### [FAQ](docs/faq.md)
+
+Common questions answered:
+
+- NVIDIA / hardware compatibility
+- Customization of dotfiles
+- What to do if setup looks broken
+- System requirements
+- Where to get help
+
 ## Supported Distributions
 
 I've tested this on:
