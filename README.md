@@ -2,6 +2,8 @@
 
 My personal desktop environment setup for Linux, built on Hyprland and Quickshell. It's basically a complete desktop experience that I've been tweaking and refining over time.
 
+PLEASE READ THE DOCS BEFORE ASKING FOR HELP ... IT EXPLAINS EVERYTHING JUST LOOK BELOW!
+
 ## What is this?
 
 A repo for release artifacts and configuration files for Event Horizon Shell and Event Horizon Dotfiles. This is not a full Linux distribution installer.
